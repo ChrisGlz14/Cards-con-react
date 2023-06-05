@@ -3,7 +3,7 @@ import "./card.css";
 function Card() {
   return (
     <div className="container">
-          <img src="\src\img\proyectocoles.png" alt="" />
+          <img src="\src\img\prpyectocole.png" alt="" />
           {/* <div className="shadow"></div> */}
       <div className="container-card">
         <div className="container-header">
