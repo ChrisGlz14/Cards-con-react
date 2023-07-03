@@ -1,23 +1,20 @@
 import "./card.css";
 
-function Card() {
+function Card({name, description}) {
   return (
     <div className="container">
-          <img src="\src\img\prpyectocole.png" alt="" />
-          {/* <div className="shadow"></div> */}
+      <img src="\src\img\prpyectocole.png" alt="" />
+      {/* <div className="shadow"></div> */}
       <div className="container-card">
         <div className="container-header">
-          <h2>Nombre del proyecto</h2>
+          <h2>{name}</h2>
           <div className="icons">
             <i className="fa-brands fa-github"></i>
             <i className="fa-solid fa-rocket"></i>
           </div>
         </div>
         <p className="description-card">
-          Descripcion de la tarjeta: Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Fugiat quos neque assumenda vero! Illum corrupti
-          neque molestiae blanditiis, sed, assumenda doloremque eius similique
-          voluptates nemo repudiandae quam illo asperiores esse.
+          {description}
         </p>
         <div className="footer-card">
           <h3>Tecnologias utilizadas:</h3>
