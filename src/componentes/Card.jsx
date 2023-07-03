@@ -1,10 +1,6 @@
 import "./card.css";
 
-<<<<<<< HEAD
-function Card({name, description}) {
-=======
 function Card({name, description, image}) {
->>>>>>> fe89df7d97948303b398c431cb363fcef6b8bc13
   return (
     <div className="container">
       <img src="\src\img\prpyectocole.png" alt="" />
@@ -31,6 +27,6 @@ function Card({name, description, image}) {
       </div>
     </div>
   );
-}
+  }
 
 export default Card;
